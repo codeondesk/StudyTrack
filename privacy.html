@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyTrack - Πολιτική Απορρήτου</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #1a1a2e;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 32px;
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: #1a1a2e;
+        }
+        p, li {
+            margin-bottom: 12px;
+            font-size: 15px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        a { color: #4a6cf7; }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Πολιτική Απορρήτου</h1>
+        <p class="subtitle">Τελευταία ενημέρωση: 12 Φεβρουαρίου 2026</p>
+
+        <p>Η εφαρμογή <strong>StudyTrack</strong> ("εφαρμογή") αναπτύχθηκε από τον Giorgos Petropoulos ("εμείς"). Η παρούσα πολιτική απορρήτου εξηγεί ποια δεδομένα συλλέγουμε, πώς τα χρησιμοποιούμε και πώς τα προστατεύουμε.</p>
+
+        <h2>1. Δεδομένα που συλλέγουμε</h2>
+        <p>Η εφαρμογή συλλέγει και αποθηκεύει τα ακόλουθα δεδομένα:</p>
+        <ul>
+            <li><strong>Ονοματεπώνυμο</strong> — για την αναγνώριση του μαθητή</li>
+            <li><strong>Όνομα χρήστη (username)</strong> — για τη σύνδεση στην εφαρμογή</li>
+            <li><strong>Κωδικός πρόσβασης</strong> — αποθηκεύεται κρυπτογραφημένος (BCrypt hash)</li>
+            <li><strong>Βαθμοί και επιδόσεις</strong> — βαθμοί εξετάσεων, τεστ και quiz</li>
+            <li><strong>Αποτελέσματα quiz</strong> — απαντήσεις και σκορ</li>
+        </ul>
+
+        <h2>2. Πώς χρησιμοποιούμε τα δεδομένα</h2>
+        <p>Τα δεδομένα χρησιμοποιούνται αποκλειστικά για:</p>
+        <ul>
+            <li>Τη λειτουργία της εφαρμογής (σύνδεση, προβολή βαθμών, quiz)</li>
+            <li>Την παρακολούθηση της προόδου του μαθητή</li>
+            <li>Τη δημιουργία αναφορών επίδοσης</li>
+        </ul>
+        <p>Δεν χρησιμοποιούμε τα δεδομένα σας για διαφήμιση, marketing ή οποιονδήποτε άλλο σκοπό.</p>
+
+        <h2>3. Κοινοποίηση δεδομένων</h2>
+        <p>Δεν πουλάμε, μοιραζόμαστε ή μεταβιβάζουμε τα προσωπικά σας δεδομένα σε τρίτους. Τα δεδομένα είναι προσβάσιμα μόνο από:</p>
+        <ul>
+            <li>Τον μαθητή (τα δικά του δεδομένα)</li>
+            <li>Τον καθηγητή του φροντιστηρίου</li>
+            <li>Τον γονέα/κηδεμόνα (αν έχει συνδεδεμένο λογαριασμό)</li>
+        </ul>
+
+        <h2>4. Αποθήκευση δεδομένων</h2>
+        <p>Τα δεδομένα αποθηκεύονται με ασφάλεια στο Google Firebase (Firestore). Οι κωδικοί πρόσβασης αποθηκεύονται κρυπτογραφημένοι. Τα session credentials στη συσκευή αποθηκεύονται στο iOS Keychain.</p>
+
+        <h2>5. Ασφάλεια</h2>
+        <p>Λαμβάνουμε κατάλληλα μέτρα ασφαλείας για την προστασία των δεδομένων σας, συμπεριλαμβανομένων:</p>
+        <ul>
+            <li>Κρυπτογράφηση κωδικών πρόσβασης (BCrypt)</li>
+            <li>Ασφαλής αποθήκευση στο iOS Keychain</li>
+            <li>Ασφαλής σύνδεση με τους servers (HTTPS/TLS)</li>
+        </ul>
+
+        <h2>6. Δικαιώματα χρήστη</h2>
+        <p>Έχετε το δικαίωμα να:</p>
+        <ul>
+            <li>Ζητήσετε πρόσβαση στα δεδομένα σας</li>
+            <li>Ζητήσετε διόρθωση λανθασμένων δεδομένων</li>
+            <li>Ζητήσετε διαγραφή του λογαριασμού σας</li>
+        </ul>
+        <p>Για οποιοδήποτε αίτημα, επικοινωνήστε μαζί μας στο <a href="mailto:petropouloscloud@gmail.com">petropouloscloud@gmail.com</a>.</p>
+
+        <h2>7. Παιδιά</h2>
+        <p>Η εφαρμογή μπορεί να χρησιμοποιηθεί από μαθητές κάθε ηλικίας υπό την επίβλεψη του εκπαιδευτικού φορέα. Δεν συλλέγουμε εν γνώσει μας δεδομένα από παιδιά χωρίς τη συγκατάθεση του γονέα/κηδεμόνα ή του εκπαιδευτικού φορέα.</p>
+
+        <h2>8. Αλλαγές στην πολιτική</h2>
+        <p>Ενδέχεται να ενημερώσουμε αυτή την πολιτική απορρήτου κατά καιρούς. Οι αλλαγές θα δημοσιεύονται σε αυτή τη σελίδα με ενημερωμένη ημερομηνία.</p>
+
+        <h2>9. Επικοινωνία</h2>
+        <p>Για ερωτήσεις σχετικά με αυτή την πολιτική απορρήτου, επικοινωνήστε μαζί μας:</p>
+        <p><strong>Email:</strong> <a href="mailto:petropouloscloud@gmail.com">petropouloscloud@gmail.com</a></p>
+
+        <div class="footer">
+            &copy; 2026 Giorgos Petropoulos. Με επιφύλαξη παντός δικαιώματος.
+        </div>
+    </div>
+</body>
+</html>
